@@ -1,4 +1,5 @@
 public class Vertex {
+    public static final String cityName = null;
     int number;
     int distance;
     int pi;

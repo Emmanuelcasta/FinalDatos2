@@ -67,6 +67,22 @@ public class G {
             System.out.println(V[i]);
         }
     }
+    public void printShortestDistances() {
+        // Asociar los identificadores de los nodos con sus respectivos nombres
+        String[] nodeNames = {
+            "Arauca", "Armenia", "Barranquilla", "Bogota", "Bucaramanga", "Cali",
+            "Cartagena", "Cucuta", "Florencia", "Ibague", "Manizales", "Medellin",
+            "Monteria", "Mocoa", "Neiva", "Pasto", "Pereira", "Popayan", "Quibdo",
+            "Riohacha", "Santa Marta", "Sincelejo", "Tunja", "Valledupar",
+            "Villavicencio", "Yopal"
+        };
+    
+        // Imprimir las distancias más cortas junto con los nombres de los nodos
+        for (int i = 1; i < V.length; i++) {
+            System.out.println(nodeNames[i - 1] + " por " + i + ": " + V[i].distance);
+        }
+    }
+    
     
 }
 
