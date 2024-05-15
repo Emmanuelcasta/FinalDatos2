@@ -1,0 +1,675 @@
+Arauca Armenia 697
+Arauca Barranquilla 706
+Arauca Bogota 474
+Arauca Bucaramanga 459
+Arauca Cali 782
+Arauca Cartagena 746
+Arauca Cucuta 375
+Arauca Florencia 695
+Arauca Ibague 501
+Arauca Manizales 565
+Arauca Medellin 657
+Arauca Monteria 721
+Arauca Mocoa 635
+Arauca Neiva 611
+Arauca Pasto 875
+Arauca Pereira 556
+Arauca Popayan 802
+Arauca Quibdo 595
+Arauca Riohacha 763
+Arauca Santa Marta 788
+Arauca Sincelejo 760
+Arauca Tunja 317
+Arauca Valledupar 694
+Arauca Villavicencio 264
+Arauca Yopal 160
+
+Armenia Arauca 697
+Armenia Barranquilla 812
+Armenia Bogota 271
+Armenia Bucaramanga 514
+Armenia Cali 275
+Armenia Cartagena 784
+Armenia Cucuta 717
+Armenia Florencia 516
+Armenia Ibague 148
+Armenia Manizales 90
+Armenia Medellin 256
+Armenia Monteria 742
+Armenia Mocoa 773
+Armenia Neiva 433
+Armenia Pasto 961
+Armenia Pereira 49
+Armenia Popayan 446
+Armenia Quibdo 802
+Armenia Riohacha 942
+Armenia Santa Marta 896
+Armenia Sincelejo 806
+Armenia Tunja 377
+Armenia Valledupar 628
+Armenia Villavicencio 316
+Armenia Yopal 577
+
+Barranquilla Arauca 706
+Barranquilla Armenia 812
+Barranquilla Bogota 836
+Barranquilla Bucaramanga 490
+Barranquilla Cali 1161
+Barranquilla Cartagena 123
+Barranquilla Cucuta 636
+Barranquilla Florencia 890
+Barranquilla Ibague 794
+Barranquilla Manizales 800
+Barranquilla Medellin 650
+Barranquilla Monteria 124
+Barranquilla Mocoa 906
+Barranquilla Neiva 788
+Barranquilla Pasto 1220
+Barranquilla Pereira 802
+Barranquilla Popayan 1207
+Barranquilla Quibdo 388
+Barranquilla Riohacha 279
+Barranquilla Santa Marta 110
+Barranquilla Sincelejo 144
+Barranquilla Tunja 705
+Barranquilla Valledupar 404
+Barranquilla Villavicencio 768
+Barranquilla Yopal 677
+
+Bogota Arauca 474
+Bogota Armenia 271
+Bogota Barranquilla 836
+Bogota Bucaramanga 377
+Bogota Cali 477
+Bogota Cartagena 1161
+Bogota Cucuta 573
+Bogota Florencia 392
+Bogota Ibague 199
+Bogota Manizales 273
+Bogota Medellin 260
+Bogota Monteria 681
+Bogota Mocoa 570
+Bogota Neiva 271
+Bogota Pasto 812
+Bogota Pereira 244
+Bogota Popayan 476
+Bogota Quibdo 712
+Bogota Riohacha 888
+Bogota Santa Marta 908
+Bogota Sincelejo 734
+Bogota Tunja 129
+Bogota Valledupar 673
+Bogota Villavicencio 92
+Bogota Yopal 300
+
+Bucaramanga Arauca 459
+Bucaramanga Armenia 514
+Bucaramanga Barranquilla 490
+Bucaramanga Bogota 377
+Bucaramanga Cali 687
+Bucaramanga Cartagena 886
+Bucaramanga Cucuta 78
+Bucaramanga Florencia 485
+Bucaramanga Ibague 469
+Bucaramanga Manizales 380
+Bucaramanga Medellin 263
+Bucaramanga Monteria 618
+Bucaramanga Mocoa 721
+Bucaramanga Neiva 452
+Bucaramanga Pasto 915
+Bucaramanga Pereira 353
+Bucaramanga Popayan 691
+Bucaramanga Quibdo 572
+Bucaramanga Riohacha 824
+Bucaramanga Santa Marta 846
+Bucaramanga Sincelejo 654
+Bucaramanga Tunja 235
+Bucaramanga Valledupar 654
+Bucaramanga Villavicencio 322
+Bucaramanga Yopal 419
+
+Cali Arauca 782
+Cali Armenia 275
+Cali Barranquilla 1161
+Cali Bogota 477
+Cali Bucaramanga 687
+Cali Cartagena 1024
+Cali Cucuta 952
+Cali Florencia 844
+Cali Ibague 285
+Cali Manizales 241
+Cali Medellin 398
+Cali Monteria 441
+Cali Mocoa 860
+Cali Neiva 412
+Cali Pasto 477
+Cali Pereira 180
+Cali Popayan 123
+Cali Quibdo 588
+Cali Riohacha 1185
+Cali Santa Marta 1229
+Cali Sincelejo 1163
+Cali Tunja 602
+Cali Valledupar 929
+Cali Villavicencio 553
+Cali Yopal 710
+
+Cartagena Arauca 746
+Cartagena Armenia 784
+Cartagena Barranquilla 123
+Cartagena Bogota 1161
+Cartagena Bucaramanga 886
+Cartagena Cali 1024
+Cartagena Cucuta 718
+Cartagena Florencia 1147
+Cartagena Ibague 1051
+Cartagena Manizales 1058
+Cartagena Medellin 908
+Cartagena Monteria 292
+Cartagena Mocoa 1180
+Cartagena Neiva 1042
+Cartagena Pasto 1332
+Cartagena Pereira 1075
+Cartagena Popayan 1330
+Cartagena Quibdo 529
+Cartagena Riohacha 297
+Cartagena Santa Marta 235
+Cartagena Sincelejo 89
+Cartagena Tunja 831
+Cartagena Valledupar 585
+Cartagena Villavicencio 956
+Cartagena Yopal 865
+
+Cucuta Arauca 375
+Cucuta Armenia 717
+Cucuta Barranquilla 636
+Cucuta Bogota 573
+Cucuta Bucaramanga 78
+Cucuta Cali 952
+Cucuta Cartagena 718
+Cucuta Florencia 826
+Cucuta Ibague 579
+Cucuta Manizales 666
+Cucuta Medellin 394
+Cucuta Monteria 822
+Cucuta Mocoa 1042
+Cucuta Neiva 684
+Cucuta Pasto 1212
+Cucuta Pereira 777
+Cucuta Popayan 1127
+Cucuta Quibdo 511
+Cucuta Riohacha 599
+Cucuta Santa Marta 635
+Cucuta Sincelejo 628
+Cucuta Tunja 493
+Cucuta Valledupar 560
+Cucuta Villavicencio 504
+Cucuta Yopal 671
+
+Florencia Arauca 695
+Florencia Armenia 516
+Florencia Barranquilla 890
+Florencia Bogota 392
+Florencia Bucaramanga 485
+Florencia Cali 844
+Florencia Cartagena 1147
+Florencia Cucuta 826
+Florencia Ibague 376
+Florencia Manizales 356
+Florencia Medellin 513
+Florencia Monteria 772
+Florencia Mocoa 304
+Florencia Neiva 137
+Florencia Pasto 285
+Florencia Pereira 419
+Florencia Popayan 252
+Florencia Quibdo 417
+Florencia Riohacha 1150
+Florencia Santa Marta 1194
+Florencia Sincelejo 1128
+Florencia Tunja 529
+Florencia Valledupar 856
+Florencia Villavicencio 377
+Florencia Yopal 386
+
+Ibague Arauca 501
+Ibague Armenia 148
+Ibague Barranquilla 794
+Ibague Bogota 199
+Ibague Bucaramanga 469
+Ibague Cali 285
+Ibague Cartagena 1051
+Ibague Cucuta 579
+Ibague Florencia 376
+Ibague Manizales 158
+Ibague Medellin 315
+Ibague Monteria 736
+Ibague Mocoa 566
+Ibague Neiva 196
+Ibague Pasto 702
+Ibague Pereira 180
+Ibague Popayan 401
+Ibague Quibdo 802
+Ibague Riohacha 949
+Ibague Santa Marta 903
+Ibague Sincelejo 813
+Ibague Tunja 276
+Ibague Valledupar 627
+Ibague Villavicencio 277
+Ibague Yopal 537
+
+Manizales Arauca 565
+Manizales Armenia 90
+Manizales Barranquilla 800
+Manizales Bogota 273
+Manizales Bucaramanga 380
+Manizales Cali 241
+Manizales Cartagena 1058
+Manizales Cucuta 666
+Manizales Florencia 356
+Manizales Ibague 158
+Manizales Medellin 193
+Manizales Monteria 823
+Manizales Mocoa 687
+Manizales Neiva 318
+Manizales Pasto 777
+Manizales Pereira 132
+Manizales Popayan 321
+Manizales Quibdo 695
+Manizales Riohacha 942
+Manizales Santa Marta 896
+Manizales Sincelejo 806
+Manizales Tunja 367
+Manizales Valledupar 617
+Manizales Villavicencio 359
+Manizales Yopal 619
+
+Medellin Arauca 657
+Medellin Armenia 256
+Medellin Barranquilla 650
+Medellin Bogota 260
+Medellin Bucaramanga 263
+Medellin Cali 398
+Medellin Cartagena 908
+Medellin Cucuta 394
+Medellin Florencia 513
+Medellin Ibague 315
+Medellin Manizales 193
+Medellin Monteria 529
+Medellin Mocoa 722
+Medellin Neiva 384
+Medellin Pasto 791
+Medellin Pereira 196
+Medellin Popayan 453
+Medellin Quibdo 377
+Medellin Riohacha 824
+Medellin Santa Marta 868
+Medellin Sincelejo 802
+Medellin Tunja 435
+Medellin Valledupar 762
+Medellin Villavicencio 385
+Medellin Yopal 650
+
+Monteria Arauca 721
+Monteria Armenia 742
+Monteria Barranquilla 124
+Monteria Bogota 681
+Monteria Bucaramanga 618
+Monteria Cali 441
+Monteria Cartagena 292
+Monteria Cucuta 822
+Monteria Florencia 772
+Monteria Ibague 736
+Monteria Manizales 823
+Monteria Medellin 529
+Monteria Mocoa 592
+Monteria Neiva 564
+Monteria Pasto 952
+Monteria Pereira 688
+Monteria Popayan 938
+Monteria Quibdo 393
+Monteria Riohacha 494
+Monteria Santa Marta 447
+Monteria Sincelejo 281
+Monteria Tunja 748
+Monteria Valledupar 398
+Monteria Villavicencio 764
+Monteria Yopal 674
+
+Mocoa Arauca 635
+Mocoa Armenia 773
+Mocoa Barranquilla 906
+Mocoa Bogota 570
+Mocoa Bucaramanga 721
+Mocoa Cali 860
+Mocoa Cartagena 1180
+Mocoa Cucuta 1042
+Mocoa Florencia 304
+Mocoa Ibague 566
+Mocoa Manizales 687
+Mocoa Medellin 722
+Mocoa Monteria 592
+Mocoa Neiva 597
+Mocoa Pasto 370
+Mocoa Pereira 661
+Mocoa Popayan 446
+Mocoa Quibdo 419
+Mocoa Riohacha 1153
+Mocoa Santa Marta 1197
+Mocoa Sincelejo 1131
+Mocoa Tunja 690
+Mocoa Valledupar 1017
+Mocoa Villavicencio 641
+Mocoa Yopal 595
+
+Neiva Arauca 611
+Neiva Armenia 433
+Neiva Barranquilla 788
+Neiva Bogota 271
+Neiva Bucaramanga 452
+Neiva Cali 412
+Neiva Cartagena 1042
+Neiva Cucuta 684
+Neiva Florencia 137
+Neiva Ibague 196
+Neiva Manizales 318
+Neiva Medellin 384
+Neiva Monteria 564
+Neiva Mocoa 597
+Neiva Pasto 721
+Neiva Pereira 279
+Neiva Popayan 522
+Neiva Quibdo 823
+Neiva Riohacha 970
+Neiva Santa Marta 924
+Neiva Sincelejo 834
+Neiva Tunja 297
+Neiva Valledupar 648
+Neiva Villavicencio 290
+Neiva Yopal 550
+
+Pasto Arauca 873
+Pasto Armenia 462
+Pasto Barranquilla 1220
+Pasto Bogota 812
+Pasto Bucaramanga 915
+Pasto Cali 477
+Pasto Cartagena 1332
+Pasto Cucuta 1212
+Pasto Florencia 285
+Pasto Ibague 702
+Pasto Manizales 777
+Pasto Medellin 791
+Pasto Monteria 952
+Pasto Mocoa 370
+Pasto Neiva 721
+Pasto Pereira 418
+Pasto Popayan 223
+Pasto Quibdo 746
+Pasto Riohacha 1343
+Pasto Santa Marta 1387
+Pasto Sincelejo 1321
+Pasto Tunja 818
+Pasto Valledupar 1145
+Pasto Villavicencio 769
+Pasto Yopal 1026
+
+Pereira Arauca 638
+Pereira Armenia 147
+Pereira Barranquilla 802
+Pereira Bogota 244
+Pereira Bucaramanga 353
+Pereira Cali 180
+Pereira Cartagena 1075
+Pereira Cucuta 777
+Pereira Florencia 419
+Pereira Ibague 180
+Pereira Manizales 132
+Pereira Medellin 196
+Pereira Monteria 688
+Pereira Mocoa 661
+Pereira Neiva 279
+Pereira Pasto 418
+Pereira Popayan 253
+Pereira Quibdo 540
+Pereira Riohacha 936
+Pereira Santa Marta 890
+Pereira Sincelejo 800
+Pereira Tunja 363
+Pereira Valledupar 714
+Pereira Villavicencio 357
+Pereira Yopal 617
+
+Popayan Arauca 757
+Popayan Armenia 130
+Popayan Barranquilla 1207
+Popayan Bogota 476
+Popayan Bucaramanga 691
+Popayan Cali 123
+Popayan Cartagena 1330
+Popayan Cucuta 1127
+Popayan Florencia 252
+Popayan Ibague 401
+Popayan Manizales 321
+Popayan Medellin 453
+Popayan Monteria 938
+Popayan Mocoa 446
+Popayan Neiva 522
+Popayan Pasto 223
+Popayan Pereira 253
+Popayan Quibdo 640
+Popayan Riohacha 937
+Popayan Santa Marta 891
+Popayan Sincelejo 801
+Popayan Tunja 474
+Popayan Valledupar 824
+Popayan Villavicencio 368
+Popayan Yopal 628
+
+Quibdo Arauca 516
+Quibdo Armenia 774
+Quibdo Barranquilla 388
+Quibdo Bogota 712
+Quibdo Bucaramanga 572
+Quibdo Cali 588
+Quibdo Cartagena 529
+Quibdo Cucuta 511
+Quibdo Florencia 417
+Quibdo Ibague 802
+Quibdo Manizales 695
+Quibdo Medellin 377
+Quibdo Monteria 393
+Quibdo Mocoa 419
+Quibdo Neiva 823
+Quibdo Pasto 746
+Quibdo Pereira 540
+Quibdo Popayan 640
+Quibdo Riohacha 306
+Quibdo Santa Marta 344
+Quibdo Sincelejo 258
+Quibdo Tunja 618
+Quibdo Valledupar 450
+Quibdo Villavicencio 708
+Quibdo Yopal 817
+
+Riohacha Arauca 555
+Riohacha Armenia 949
+Riohacha Barranquilla 279
+Riohacha Bogota 888
+Riohacha Bucaramanga 824
+Riohacha Cali 1185
+Riohacha Cartagena 297
+Riohacha Cucuta 599
+Riohacha Florencia 1150
+Riohacha Ibagué 949
+Riohacha Manizales 942
+Riohacha Medellin 824
+Riohacha Monteria 494
+Riohacha Mocoa 1153
+Riohacha Neiva 970
+Riohacha Pasto 1343
+Riohacha Pereira 936
+Riohacha Popayan 937
+Riohacha Quibdo 306
+Riohacha Santa Marta 190
+Riohacha Sincelejo 310
+Riohacha Tunja 738
+Riohacha Valledupar 492
+Riohacha Villavicencio 943
+Riohacha Yopal 854
+
+Santa Marta Arauca 586
+Santa Marta Armenia 948
+Santa Marta Barranquilla 110
+Santa Marta Bogota 908
+Santa Marta Bucaramanga 846
+Santa Marta Cali 1229
+Santa Marta Cartagena 235
+Santa Marta Cucuta 635
+Santa Marta Florencia 1194
+Santa Marta Ibague 903
+Santa Marta Manizales 896
+Santa Marta Medellin 868
+Santa Marta Monteria 447
+Santa Marta Mocoa 1197
+Santa Marta Neiva 924
+Santa Marta Pasto 1387
+Santa Marta Pereira 890
+Santa Marta Popayan 891
+Santa Marta Quibdo 344
+Santa Marta Riohacha 190
+Santa Marta Sincelejo 114
+Santa Marta Tunja 741
+Santa Marta Valledupar 344
+Santa Marta Villavicencio 896
+Santa Marta Yopal 807
+
+Sincelejo Arauca 649
+Sincelejo Armenia 855
+Sincelejo Barranquilla 194
+Sincelejo Bogota 656
+Sincelejo Bucaramanga 567
+Sincelejo Cali 1163
+Sincelejo Cartagena 89
+Sincelejo Cucuta 628
+Sincelejo Florencia 1128
+Sincelejo Ibague 813
+Sincelejo Manizales 806
+Sincelejo Medellin 802
+Sincelejo Monteria 281
+Sincelejo Mocoa 1131
+Sincelejo Neiva 834
+Sincelejo Pasto 1321
+Sincelejo Pereira 800
+Sincelejo Popayan 801
+Sincelejo Quibdo 258
+Sincelejo Riohacha 310
+Sincelejo Santa Marta 114
+Sincelejo Tunja 473
+Sincelejo Valledupar 230
+Sincelejo Villavicencio 794
+Sincelejo Yopal 664
+
+Tunja Arauca 613
+Tunja Armenia 241
+Tunja Barranquilla 779
+Tunja Bogota 129
+Tunja Bucaramanga 264
+Tunja Cali 602
+Tunja Cartagena 831
+Tunja Cucuta 493
+Tunja Florencia 529
+Tunja Ibague 276
+Tunja Manizales 367
+Tunja Medellin 435
+Tunja Monteria 748
+Tunja Mocoa 690
+Tunja Neiva 297
+Tunja Pasto 818
+Tunja Pereira 363
+Tunja Popayan 474
+Tunja Quibdo 618
+Tunja Riohacha 738
+Tunja Santa Marta 741
+Tunja Sincelejo 473
+Tunja Valledupar 439
+Tunja Villavicencio 307
+Tunja Yopal 567
+
+Valledupar Arauca 552
+Valledupar Armenia 927
+Valledupar Barranquilla 445
+Valledupar Bogota 772
+Valledupar Bucaramanga 711
+Valledupar Cali 929
+Valledupar Cartagena 585
+Valledupar Cucuta 560
+Valledupar Florencia 856
+Valledupar Ibague 627
+Valledupar Manizales 617
+Valledupar Medellin 762
+Valledupar Monteria 398
+Valledupar Mocoa 1017
+Valledupar Neiva 648
+Valledupar Pasto 1145
+Valledupar Pereira 714
+Valledupar Popayan 824
+Valledupar Quibdo 450
+Valledupar Riohacha 492
+Valledupar Santa Marta 344
+Valledupar Sincelejo 230
+Valledupar Tunja 439
+Valledupar Villavicencio 485
+Valledupar Yopal 295
+
+Villavicencio Arauca 545
+Villavicencio Armenia 447
+Villavicencio Barranquilla 886
+Villavicencio Bogota 96
+Villavicencio Bucaramanga 394
+Villavicencio Cali 665
+Villavicencio Cartagena 805
+Villavicencio Cucuta 619
+Villavicencio Florencia 377
+Villavicencio Ibague 277
+Villavicencio Manizales 359
+Villavicencio Medellin 385
+Villavicencio Monteria 764
+Villavicencio Mocoa 641
+Villavicencio Neiva 290
+Villavicencio Pasto 769
+Villavicencio Pereira 357
+Villavicencio Popayan 368
+Villavicencio Quibdo 708
+Villavicencio Riohacha 943
+Villavicencio Santa Marta 896
+Villavicencio Sincelejo 794
+Villavicencio Tunja 307
+Villavicencio Valledupar 485
+Villavicencio Yopal 195
+
+Yopal Arauca 169
+Yopal Armenia 840
+Yopal Barranquilla 660
+Yopal Bogota 198
+Yopal Bucaramanga 447
+Yopal Cali 920
+Yopal Cartagena 719
+Yopal Cucuta 482
+Yopal Florencia 386
+Yopal Ibague 537
+Yopal Manizales 619
+Yopal Medellin 650
+Yopal Monteria 674
+Yopal Mocoa 595
+Yopal Neiva 550
+Yopal Pasto 1026
+Yopal Pereira 617
+Yopal Popayan 628
+Yopal Quibdo 817
+Yopal Riohacha 854
+Yopal Santa Marta 807
+Yopal Sincelejo 664
+Yopal Tunja 567
+Yopal Valledupar 295
+Yopal Villavicencio 195
