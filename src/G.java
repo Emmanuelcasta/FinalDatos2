@@ -4,9 +4,9 @@ import java.io.FileNotFoundException;
 
 public class G {
     // Set of vertices
-    Vertex [] V;
+    Vertex[] V;
     // Adjacency list
-    Edge [] adj;
+    Edge[] adj;
 
     public void addEdge(int u, int v, int w) {
         Edge e = new Edge(v, w);
@@ -15,14 +15,14 @@ public class G {
     }
 
     public void initializeSingleSource(int s) {
-        for(int i = 1; i < V.length; i++) {
+        for (int i = 1; i < V.length; i++) {
             V[i] = new Vertex(i, Integer.MAX_VALUE, -1);
         }
         V[s].distance = 0;
     }
 
     public boolean relax(int u, int v, int w) {
-        if(V[v].distance > V[u].distance + w) {
+        if (V[v].distance > V[u].distance + w) {
             V[v].distance = V[u].distance + w;
             V[v].pi = u;
             return true;
@@ -30,59 +30,67 @@ public class G {
         return false;
     }
 
+    public void dijkstra(int source, int destination) {
+        initializeSingleSource(source);
+        MinPriorityQueue minPriorityQueue = new MinPriorityQueue(V.length);
+        for (int i = 1; i < V.length; i++) {
+            minPriorityQueue.minHeapInsert(V[i]);
+        }
+
+        while (!minPriorityQueue.isEmpty()) {
+            Vertex u = minPriorityQueue.extractMin();
+            Edge edge = adj[u.number];
+            while (edge != null) {
+                int v = edge.v;
+                int w = edge.w;
+                if (relax(u.number, v, w)) {
+                    minPriorityQueue.minHeapDecreaseKey(V[v].positionInMinHeap, V[v].distance);
+                }
+                edge = edge.next;
+            }
+        }
+        printShortestPath(source, destination);
+    }
+
     public void readGraph(String fileName) {
         try {
             Scanner sc = new Scanner(new File(fileName));
+    
+            // Leer el número de vértices y el número de aristas
             int n = sc.nextInt();
             int m = sc.nextInt();
-
-            this.V = new Vertex[n+1];
-            this.adj = new Edge[n+1];
-            for(int i = 0; i < m; i++) {
+    
+            // Inicializar el array de vértices y la lista de adyacencia
+            this.V = new Vertex[n + 1];
+            this.adj = new Edge[n + 1];
+    
+            // Leer las aristas y agregarlas al grafo
+            for (int i = 0; i < m; i++) {
                 int u = sc.nextInt();
                 int v = sc.nextInt();
                 int w = sc.nextInt();
                 addEdge(u, v, w);
             }
+    
             sc.close();
-        } catch(FileNotFoundException e) {
+        } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
     }
 
-    public void printGraph() {
-        for(int i = 1; i < adj.length; i++) {
-            System.out.print(i + ": ");
-            Edge e = adj[i];
-            while(e != null) {
-                System.out.print(e.v + " " + e.w + "; ");
-                e = e.next;
+    public void printShortestPath(int source, int destination) {
+        StringBuilder path = new StringBuilder();
+        int currentVertex = destination;
+        while (V[currentVertex].pi != -1) {
+            path.insert(0, currentVertex);
+            if (V[currentVertex].pi != -1) {
+                path.insert(0, " -> ");
             }
-            System.out.println();
+            currentVertex = V[currentVertex].pi;
         }
+        path.insert(0, currentVertex);
+        System.out.println("El camino más corto desde " + source + " hasta " + destination + " es: ");
+        System.out.println(path.toString());
+        System.out.println("La distancia total es: " + V[destination].distance);
     }
-
-    public void printVertices() {
-        for(int i = 1; i < V.length; i++) {
-            System.out.println(V[i]);
-        }
-    }
-    public void printShortestDistances() {
-        // Asociar los identificadores de los nodos con sus respectivos nombres
-        String[] nodeNames = {
-            "Arauca", "Armenia", "Barranquilla", "Bogota", "Bucaramanga", "Cali",
-            "Cartagena", "Cucuta", "Florencia", "Ibague", "Manizales", "Medellin",
-            "Monteria", "Mocoa", "Neiva", "Pasto", "Pereira", "Popayan", "Quibdo",
-            "Riohacha", "Santa Marta", "Sincelejo", "Tunja", "Valledupar",
-            "Villavicencio", "Yopal"
-        };
-    
-        // Imprimir las distancias más cortas junto con los nombres de los nodos
-        for (int i = 1; i < V.length; i++) {
-            System.out.println(nodeNames[i - 1] + " por " + i + ": " + V[i].distance);
-        }
-    }
-    
-    
 }
-

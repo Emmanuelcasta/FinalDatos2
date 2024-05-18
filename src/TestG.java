@@ -1,11 +1,27 @@
+import java.util.Scanner;
 public class TestG {
     public static void main(String [] args) {
         G g = new G();
         g.readGraph("src\\resources\\distancias.txt");
         g.initializeSingleSource(1);
-        g.printGraph();
-        //g.printVertices();
-        g.printShortestDistances();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("ingrese el número de la ciudad de origen");
+        int sourceNode = sc.nextInt();
+        System.out.println("ingrese el número de la ciudad de destino");
+        int destinationNode = sc.nextInt();
+        
+
+        //toma la hora actual antes de la ejecucuón
+        long startTime = System.currentTimeMillis();
+        g.dijkstra(sourceNode,destinationNode);
+        
+        //toma la hora actual después de la ejecucuón
+        long endTime = System.currentTimeMillis();
+
+        //calcula el tiempo de ejecución
+        long duration = (endTime - startTime);
+        System.out.println("Tiempo de ejecución: "+duration+" milisegundos");
+        sc.close();
     }
     //Arauca por 1 
     //Armenia por 2

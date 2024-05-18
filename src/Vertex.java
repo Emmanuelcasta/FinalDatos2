@@ -16,4 +16,3 @@ public class Vertex {
         return number + " " + distance + " " + pi + " " + positionInMinHeap;
     }
 }
-

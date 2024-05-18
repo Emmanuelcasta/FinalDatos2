@@ -5,7 +5,7 @@
  * This is used for Dijkstra's algorithm
  */
 
-public class MinPriorityQueue {
+ public class MinPriorityQueue {
     Vertex [] array;
     int heapSize;
 
