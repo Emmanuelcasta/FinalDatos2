@@ -4,8 +4,8 @@ public class TestG {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         G g = new G();
-        g.readGraph("src\\resources\\distanciasB.txt");
-
+        BellmanFordG B = new BellmanFordG();
+        
         int choice;
         do {
             System.out.println("Seleccione el algoritmo para encontrar el camino más corto:");
@@ -17,7 +17,7 @@ public class TestG {
 
             switch (choice) {
                 case 1:
-                    runBellmanFord(g, scanner);
+                    runBellmanFord(B, scanner);
                     break;
                 case 2:
                     runDijkstra(g, scanner);
@@ -33,30 +33,32 @@ public class TestG {
         scanner.close();
     }
 
-    public static void runBellmanFord(G g, Scanner scanner) {
+    public static void runBellmanFord(BellmanFordG B, Scanner scanner) {
+        B.readGraph("src\\resources\\graph1.txt");
         System.out.println("Ingrese el número de la ciudad de origen:");
         int sourceNode = scanner.nextInt();
         System.out.println("Ingrese el número de la ciudad de destino:");
         int destinationNode = scanner.nextInt();
-    
+
         // Toma la hora actual antes de la ejecución
         long startTime = System.nanoTime();
-    
-        BellmanFordG bellmanFordG = new BellmanFordG();
-        bellmanFordG.V = g.V;
-        bellmanFordG.adj = g.adj;
-    
-        bellmanFordG.bellmanFord(sourceNode, destinationNode);
-    
+
+        BellmanFordG graph = new BellmanFordG();
+        graph.V = B.V;
+        graph.adj = B.adj;
+
+        graph.bellmanFord(sourceNode, destinationNode);
+
         // Toma la hora actual después de la ejecución
         long endTime = System.nanoTime();
-    
+
         // Calcula la duración y la imprime
         long duration = endTime - startTime;
         System.out.println("El proceso se demoró " + duration + " nanosegundos.");
     }
 
     public static void runDijkstra(G g, Scanner scanner) {
+        g.readGraph("src\\resources\\distancias.txt");
         System.out.println("Ingrese el número de la ciudad de origen:");
         int sourceNode = scanner.nextInt();
         System.out.println("Ingrese el número de la ciudad de destino:");
