@@ -1,7 +1,7 @@
-public class Edge {
-    int v;      // destination vertex
-    int w;      // weight
-    Edge next;  // next edge in the list
+class Edge {
+    int v;
+    int w;
+    Edge next;
 
     public Edge(int v, int w) {
         this.v = v;
