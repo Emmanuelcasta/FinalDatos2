@@ -6,5 +6,6 @@ class Edge {
     public Edge(int v, int w) {
         this.v = v;
         this.w = w;
+        this.next = null;
     }
 }
