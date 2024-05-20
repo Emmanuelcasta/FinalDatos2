@@ -2,7 +2,7 @@
  * La clase Edge representa una arista en un grafo con un peso asociado.
  * Se usa en la lista de adyacencia para representar las conexiones entre los vértices.
  */
-class Edge {
+public class Edge {
     
     /**
      * El vértice de destino de la arista.
