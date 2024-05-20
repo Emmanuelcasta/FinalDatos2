@@ -1,6 +1,17 @@
 import java.util.Scanner;
 
+/**
+ * La clase TestG proporciona un menú para seleccionar y ejecutar algoritmos 
+ * de caminos más cortos, incluyendo el algoritmo de Bellman-Ford y el algoritmo de Dijkstra.
+ */
 public class TestG {
+    
+    /**
+     * Método principal que inicia el programa y proporciona un menú para seleccionar 
+     * los algoritmos de caminos más cortos.
+     *
+     * @param args Los argumentos de la línea de comandos.
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         G g = new G();
@@ -33,6 +44,13 @@ public class TestG {
         scanner.close();
     }
 
+    /**
+     * Ejecuta el algoritmo de Bellman-Ford para encontrar el camino más corto entre 
+     * dos nodos en un grafo leído desde un archivo.
+     *
+     * @param B El objeto BellmanFordG que contiene el grafo.
+     * @param scanner El objeto Scanner para leer la entrada del usuario.
+     */
     public static void runBellmanFord(BellmanFordG B, Scanner scanner) {
         B.readGraph("src\\resources\\graphNew.txt");
         System.out.println("Ingrese el número de la ciudad de origen:");
@@ -57,6 +75,13 @@ public class TestG {
         System.out.println("El proceso se demoró " + duration + " nanosegundos.");
     }
 
+    /**
+     * Ejecuta el algoritmo de Dijkstra para encontrar el camino más corto entre 
+     * dos nodos en un grafo leído desde un archivo.
+     *
+     * @param g El objeto G que contiene el grafo.
+     * @param scanner El objeto Scanner para leer la entrada del usuario.
+     */
     public static void runDijkstra(G g, Scanner scanner) {
         g.readGraph("src\\resources\\graphNew.txt");
         System.out.println("Ingrese el número de la ciudad de origen:");

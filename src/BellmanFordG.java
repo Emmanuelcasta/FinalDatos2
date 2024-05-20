@@ -2,10 +2,29 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
 
+/**
+ * La clase BellmanFordG implementa el algoritmo de Bellman-Ford para encontrar
+ * el camino más corto en un grafo con posibles pesos negativos en las aristas.
+ */
 public class BellmanFordG {
+
+    /**
+     * Array de vértices del grafo.
+     */
     public Vertex[] V;
+
+    /**
+     * Lista de adyacencia representada como un array de listas de aristas.
+     */
     public Edge[] adj;
 
+    /**
+     * Agrega una arista al grafo.
+     *
+     * @param u El vértice de origen.
+     * @param v El vértice de destino.
+     * @param w El peso de la arista.
+     */
     public void addEdge(int u, int v, int w) {
         Edge e = new Edge(v, w);
         if (adj[u] == null) {
@@ -19,6 +38,12 @@ public class BellmanFordG {
         }
     }
 
+    /**
+     * Inicializa el grafo para el algoritmo de Bellman-Ford estableciendo
+     * el vértice fuente y la distancia inicial.
+     *
+     * @param s El vértice fuente.
+     */
     public void initializeSingleSource(int s) {
         for (int i = 1; i < V.length; i++) {
             V[i] = new Vertex(i, Integer.MAX_VALUE, -1);
@@ -26,6 +51,13 @@ public class BellmanFordG {
         V[s].distance = 0;
     }
 
+    /**
+     * Ejecuta el algoritmo de Bellman-Ford para encontrar el camino más corto desde
+     * el vértice fuente hasta el vértice destino.
+     *
+     * @param source El vértice fuente.
+     * @param destination El vértice destino.
+     */
     public void bellmanFord(int source, int destination) {
         initializeSingleSource(source);
     
@@ -44,7 +76,7 @@ public class BellmanFordG {
             }
         }
 
-        // Check for negative cycles
+        // Verifica la existencia de ciclos negativos
         for (int j = 1; j < adj.length; j++) {
             Edge edge = adj[j];
             while (edge != null) {
@@ -61,6 +93,11 @@ public class BellmanFordG {
         printShortestPath(source, destination);
     }
 
+    /**
+     * Lee un grafo desde un archivo.
+     *
+     * @param fileName El nombre del archivo que contiene la representación del grafo.
+     */
     public void readGraph(String fileName) {
         try {
             Scanner sc = new Scanner(new File(fileName));
@@ -87,6 +124,12 @@ public class BellmanFordG {
         }
     }
 
+    /**
+     * Imprime el camino más corto desde el vértice fuente hasta el vértice destino.
+     *
+     * @param source El vértice fuente.
+     * @param destination El vértice destino.
+     */
     public void printShortestPath(int source, int destination) {
         StringBuilder path = new StringBuilder();
         int currentVertex = destination;
@@ -102,4 +145,3 @@ public class BellmanFordG {
         System.out.println("La distancia total es: " + V[destination].distance);
     }
 }
-
