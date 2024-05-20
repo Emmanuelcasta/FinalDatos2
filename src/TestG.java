@@ -52,7 +52,7 @@ public class TestG {
      * @param scanner El objeto Scanner para leer la entrada del usuario.
      */
     public static void runBellmanFord(BellmanFordG B, Scanner scanner) {
-        B.readGraph("src\\resources\\graphNew.txt");
+        B.readGraph("src\\resources\\DistanciasB.txt");
         System.out.println("Ingrese el número de la ciudad de origen:");
         int sourceNode = scanner.nextInt();
         System.out.println("Ingrese el número de la ciudad de destino:");
@@ -83,7 +83,7 @@ public class TestG {
      * @param scanner El objeto Scanner para leer la entrada del usuario.
      */
     public static void runDijkstra(G g, Scanner scanner) {
-        g.readGraph("src\\resources\\graphNew.txt");
+        g.readGraph("src\\resources\\distancias.txt");
         System.out.println("Ingrese el número de la ciudad de origen:");
         int sourceNode = scanner.nextInt();
         System.out.println("Ingrese el número de la ciudad de destino:");
